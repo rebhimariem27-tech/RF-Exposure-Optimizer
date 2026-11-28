@@ -1,7 +1,21 @@
-**/.venv/
-**/venv/
+# Python
 __pycache__/
-.pytest_cache/
 *.py[cod]
+.pytest_cache/
+.venv/
+venv/
 .env
-.env.*
+
+# Node
+node_modules/
+dist/
+
+# Generated outputs (keep the folders)
+results/simulations/*
+results/optimizations/*
+results/figures/*
+results/reports/*
+!results/simulations/.gitkeep
+!results/optimizations/.gitkeep
+!results/figures/.gitkeep
+!results/reports/.gitkeep
